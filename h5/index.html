@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>old-h5 | Fighting</title>
+    <meta name="description" content="Just playing around">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.0d19fd84.css" as="style"><link rel="preload" href="/assets/js/app.844fdc67.js" as="script"><link rel="preload" href="/assets/js/6.cdb63f67.js" as="script"><link rel="prefetch" href="/assets/js/10.a876fc82.js"><link rel="prefetch" href="/assets/js/2.d8f505d4.js"><link rel="prefetch" href="/assets/js/3.c0ed3bcf.js"><link rel="prefetch" href="/assets/js/4.39a5d4d2.js"><link rel="prefetch" href="/assets/js/5.b0daee7a.js"><link rel="prefetch" href="/assets/js/7.0531fde3.js"><link rel="prefetch" href="/assets/js/8.e3f85bb3.js"><link rel="prefetch" href="/assets/js/9.98f3e237.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0d19fd84.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Fighting</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/webapp/" class="nav-link">小程序</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">API文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sparta/" class="nav-link">sparta</a></li><li class="dropdown-item"><!----> <a href="/erp/" class="nav-link">erp</a></li><li class="dropdown-item"><!----> <a href="/touyi/" class="nav-link">touyi</a></li><li class="dropdown-item"><!----> <a href="/h5/" class="nav-link router-link-exact-active router-link-active">h5</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/webapp/" class="nav-link">小程序</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">API文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sparta/" class="nav-link">sparta</a></li><li class="dropdown-item"><!----> <a href="/erp/" class="nav-link">erp</a></li><li class="dropdown-item"><!----> <a href="/touyi/" class="nav-link">touyi</a></li><li class="dropdown-item"><!----> <a href="/h5/" class="nav-link router-link-exact-active router-link-active">h5</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>old-h5</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/h5/#接口域名" class="sidebar-link">接口域名</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/h5/#接口定义" class="sidebar-link">接口定义</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/h5/#产品详情" class="sidebar-link">产品详情</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/h5/#基本信息" class="sidebar-link">基本信息</a></li><li class="sidebar-sub-header"><a href="/h5/#浏览记录" class="sidebar-link">浏览记录</a></li><li class="sidebar-sub-header"><a href="/h5/#pdf" class="sidebar-link">pdf</a></li><li class="sidebar-sub-header"><a href="/h5/#getinvestmentrecords" class="sidebar-link">getInvestmentRecords</a></li><li class="sidebar-sub-header"><a href="/h5/#site-getnewslist" class="sidebar-link">Site/GetNewsList</a></li><li class="sidebar-sub-header"><a href="/h5/#product-networthlist" class="sidebar-link">Product/netWorthList</a></li><li class="sidebar-sub-header"><a href="/h5/#user-collectcheck" class="sidebar-link">user/CollectCheck</a></li><li class="sidebar-sub-header"><a href="/h5/#site-getproductnews" class="sidebar-link">Site/GetProductNews</a></li></ul></li><li><a href="/h5/#个人工作台" class="sidebar-link">个人工作台</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/h5/#baseuserinfo" class="sidebar-link">baseuserinfo</a></li><li class="sidebar-sub-header"><a href="/h5/#getuserbaseprofiledetail" class="sidebar-link">getUserBaseProfileDetail</a></li><li class="sidebar-sub-header"><a href="/h5/#collectgetlistfull" class="sidebar-link">CollectGetListFull</a></li><li class="sidebar-sub-header"><a href="/h5/#getuserworkhistorylist" class="sidebar-link">getUserWorkHistoryList</a></li><li class="sidebar-sub-header"><a href="/h5/#getusercertificatelist" class="sidebar-link">getUserCertificateList</a></li><li class="sidebar-sub-header"><a href="/h5/#getnewscommentbyuser" class="sidebar-link">GetNewsCommentByUser</a></li><li class="sidebar-sub-header"><a href="/h5/#checkbindwangyi" class="sidebar-link">CheckBindWangyi</a></li></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h2 id="接口域名"><a href="#接口域名" aria-hidden="true" class="header-anchor">#</a> 接口域名</h2> <ul><li>本地：</li> <li>测试：</li> <li>正式：</li></ul> <h2 id="接口定义"><a href="#接口定义" aria-hidden="true" class="header-anchor">#</a> 接口定义</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+    
+<span class="token punctuation">}</span> 
+<span class="token operator">-</span> res
+<span class="token punctuation">{</span>
+    isSuccess
+    code
+    msg
+    data
+<span class="token punctuation">}</span>
+
+</code></pre></div><h2 id="产品详情"><a href="#产品详情" aria-hidden="true" class="header-anchor">#</a> 产品详情</h2> <h3 id="基本信息"><a href="#基本信息" aria-hidden="true" class="header-anchor">#</a> 基本信息</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Product<span class="token operator">/</span>ProductGet
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;2.0.0&quot;</span>
+    <span class="token keyword">from</span><span class="token punctuation">:</span> <span class="token string">&quot;share&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    id<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+    isZk<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    sign<span class="token punctuation">:</span> <span class="token string">&quot;6F96F9E7B5FC48EF5FF4BBA8B40B66B9&quot;</span>
+    typeid<span class="token punctuation">:</span> <span class="token string">&quot;1&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isBackEnd&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;backEndJson&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;[{\&quot;title\&quot;:\&quot;100万≤X＜300万\&quot;,\&quot;title1\&quot;:\&quot;100\&quot;,\&quot;title2\&quot;:\&quot;300\&quot;,\&quot;price\&quot;:\&quot;\&quot;,\&quot;channelPrice\&quot;:\&quot;0\&quot;,\&quot;channelPrice2\&quot;:\&quot;\&quot;},{\&quot;title\&quot;:\&quot;300万≤X\&quot;,\&quot;title1\&quot;:\&quot;300\&quot;,\&quot;title2\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;\&quot;,\&quot;channelPrice\&quot;:\&quot;0\&quot;,\&quot;channelPrice2\&quot;:\&quot;\&quot;},{\&quot;title\&quot;:\&quot;\&quot;,\&quot;title1\&quot;:\&quot;\&quot;,\&quot;title2\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;\&quot;,\&quot;channelPrice\&quot;:\&quot;\&quot;,\&quot;channelPrice2\&quot;:\&quot;\&quot;},{\&quot;title\&quot;:\&quot;\&quot;,\&quot;title1\&quot;:\&quot;\&quot;,\&quot;title2\&quot;:\&quot;\&quot;,\&quot;price\&quot;:\&quot;\&quot;,\&quot;channelPrice\&quot;:\&quot;\&quot;,\&quot;channelPrice2\&quot;:\&quot;\&quot;}]&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;saleStatus&quot;</span><span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;光大信托-安徽萧县项目&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;sTitle&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;央企信托-安徽萧县项目&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;level&quot;</span><span class="token punctuation">:</span> <span class="token number">99</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;daXiao&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;小额畅打&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;peibi&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;shouYiType&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;类固定收益&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;raiseProgress&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;【2020年5月15日9时更新】总进款6000万，本期第4期，本期规模1000万，进款中，预计下周二封账，有下期。（需双录）&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;fundType&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isStructuring&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;category&quot;</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;groupName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;光大兴陇信托&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;poUrl&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;poMobileUrl&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;touZiLingYu&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;基础设施类&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;guiMo&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;qiXian&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;24&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;qiXianX&quot;</span><span class="token punctuation">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;qiXianY&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;touZiMenkan&quot;</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bankInfo&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;【账户名】\n【账　号】\n【开户行】\n【备　注】详询专属顾问&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;dyl&quot;</span><span class="token punctuation">:</span> <span class="token number">63</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;rzzt&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;萧县交通投资有限责任公司&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;fundInvest&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;受让融资人萧县交通投资有限责任公司（主体AA发债平台）持有的萧县宜居投资发展有限责任公司对应的83.33%股权收益权，用于补充融资人流动资金。&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;windControl&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1. 萧县建设投资有限责任公司（发债主体评级AA）提供连带责任担保\n2. 市中心纯住宅用地抵押，价值3.17亿元，抵押率仅63%&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;payStatus&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;半年付息&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;sourceRepayment&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1. 融资人萧县交投的经营性收入及对股权收益权的回购价款\n2. 保证人萧县建投的经营性收入\n3. 抵押土地的变现收入&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;highlights&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.融资人萧县交投的实际控制人为萧县财政局，发行过18 萧县01、18 萧县02两项公司债券，市场信用情况良好。\n2.交易对手所处地方政府层级为萧县，属于安徽省宿州市，2019年全国投资潜力百强区(县)，位于安徽省北部，东接徐州，南临淮北，区域面积1,885.3平方千米。 萧县位于淮海经济区的核心区，对外交通极为便利。萧县2019年全年实现地区生产总值(GDP)378.6亿元，按可比价格计算，比上年增长8.9%。&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;contents&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;项目收益为税后&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;fxList&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+            <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;100万≤X＜300万&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;price&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.4%&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;isFloat&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;earningRate&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;8.3%&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;packingRate&quot;</span><span class="token punctuation">:</span> <span class="token number">8.3</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;300万≤X&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;price&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.4%&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;isFloat&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;earningRate&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;proviceName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;安徽省&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;cityName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;宿州市&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;productTypeId&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;parentId&quot;</span><span class="token punctuation">:</span> <span class="token number">64307</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;jdTime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-15 09:30:45&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;orderCount&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;redPack&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;jdt&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;issuerType&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;producttagids_intarray&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;\t13\t4\t11\t128\t135&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;productTags&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;4,基础设施类;11,二年期;13,类固定收益;128,责任担保;135,需双录视频;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;posterUrl&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bid&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;statusId&quot;</span><span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;orderId&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;cbj&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;lhj&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;syNotes&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;pmUserName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;王月&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;pmmob&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;18516267731&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;types&quot;</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;jgj&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;salesTimeStart&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;salesTimeEnd&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;nianHuaShouYiStart&quot;</span><span class="token punctuation">:</span> <span class="token number">8.3</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;nianHuaShouYiEnd&quot;</span><span class="token punctuation">:</span> <span class="token number">8.3</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;downLoad&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430/萧县.zip&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;createTime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-14 17:46:56&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;listingTime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-14 17:46:56&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;price&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;zdPrice&quot;</span><span class="token punctuation">:</span> <span class="token number">1.4</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;zdPrice2&quot;</span><span class="token punctuation">:</span> <span class="token number">1.4</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;sContent&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;maxProList&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;addr&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;companyId&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;supplierId&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;adminId&quot;</span><span class="token punctuation">:</span> <span class="token number">521</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;supplierName&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;nianHuaShouYiExt&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;companyName&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;upstreamtime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;0001-01-01 00:00:00&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;dealTime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;0001-01-01 00:00:00&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bqqsr&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-14 00:00:00&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;productOrganizationId&quot;</span><span class="token punctuation">:</span> <span class="token number">11</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;province&quot;</span><span class="token punctuation">:</span> <span class="token number">340000</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;city&quot;</span><span class="token punctuation">:</span> <span class="token number">341300</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ycbmrfx&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;productOrganizationPic&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductOrganization/20160822/2016082210361075198395.jpg&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;addrId&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;productTypeName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;集合信托&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;updateTime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-15 09:43:36&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;phase&quot;</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;issuerCompanyId&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;issuerId&quot;</span><span class="token punctuation">:</span> <span class="token number">1750</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;partentTitle&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;央企信托-安徽萧县项目(第3期)&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;partentChengliDate&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-14 00:00:00&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;project&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;attr&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;jianBan&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;cashback&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;visitCount&quot;</span><span class="token punctuation">:</span> <span class="token number">695</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;appointmentCount&quot;</span><span class="token punctuation">:</span> <span class="token number">9</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;downloadCount&quot;</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;sendEmailCount&quot;</span><span class="token punctuation">:</span> <span class="token number">9</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;dateAdded&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-14 17:46:56&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;qaList&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;docList&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token number">53388</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;productId&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;fileType&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;zip&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;type&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;产品资料&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;萧县.zip&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;size&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430/萧县.zip&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token number">53389</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;productId&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;fileType&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;zip&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;type&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;产品资料&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;萧县.zip&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;size&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430/萧县.zip&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;docPreviewCount&quot;</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isHouduan&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;prevProduct&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;64337&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;sTitle&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;央企信托-黄石政信12月&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;nextProduct&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;282&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;sTitle&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;国民信托-贵州思州润峰项目&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;videoList&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;userHoldProduct&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;tagsArray&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;13&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;类固定收益&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;4&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;基础设施类&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;11&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;二年期&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;128&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;责任担保&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;135&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;需双录视频&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;provinceCitySimple&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;安徽 宿州&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;earningRateInterval&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;8.3%&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;saleStatusName&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;在售&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isHot&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isHotSale&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isRecommend&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isChosen&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestEarningRate&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;8.3%&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestEarningRate_fore&quot;</span><span class="token punctuation">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestEarningRate_back&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;3&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestPrice&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.4%&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestPrice_fore&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestPrice_back&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;4&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestGroupPrice&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestGroupPrice_fore&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestGroupPrice_back&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestEmployeePrice&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestEmployeePrice_fore&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;bestEmployeePrice_back&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;packingRate&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;returnCash&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isNeedLogin&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;seriesProNum&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;userInfo&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token number">1339114</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;enterpriseId&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;orgUserKind&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;mobile&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;15921250253&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;realname&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;0253会员&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;role&quot;</span><span class="token punctuation">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;photo&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;mapId&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;status&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;adminId&quot;</span><span class="token punctuation">:</span> <span class="token number">38</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;authStatus&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;userlevelid&quot;</span><span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;vip&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;IsIdCard&quot;</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;authType&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isCard&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;idcard&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isPartner&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isBroker&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isQudao&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isPlatform&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;email&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;inviteCode&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;riskPreference&quot;</span><span class="token punctuation">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;type&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isAuth&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isCreateOrder&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isCreateContract&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isCreateAppointment&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">112</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="浏览记录"><a href="#浏览记录" aria-hidden="true" class="header-anchor">#</a> 浏览记录</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Product<span class="token operator">/</span>SaveProductViews
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    productChannel<span class="token punctuation">:</span> <span class="token number">15</span>
+    productId<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">65</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="pdf"><a href="#pdf" aria-hidden="true" class="header-anchor">#</a> pdf</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Product<span class="token operator">/</span>pdfPreviewList
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    pid<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token string">&quot;Name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1.简版-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430//1.简版-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductDocId&quot;</span><span class="token punctuation">:</span> <span class="token number">53388</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductId&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Id&quot;</span><span class="token punctuation">:</span> <span class="token number">78769</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token string">&quot;Name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2.合同-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430//2.合同-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductDocId&quot;</span><span class="token punctuation">:</span> <span class="token number">53388</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductId&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Id&quot;</span><span class="token punctuation">:</span> <span class="token number">78770</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token string">&quot;Name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;3.说明书-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430//3.说明书-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductDocId&quot;</span><span class="token punctuation">:</span> <span class="token number">53388</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductId&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Id&quot;</span><span class="token punctuation">:</span> <span class="token number">78771</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token string">&quot;Name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;4.尽调-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Url&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/ProductPDF/20200430//4.尽调-央企信托-安徽萧县项目.pdf&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductDocId&quot;</span><span class="token punctuation">:</span> <span class="token number">53388</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;ProductId&quot;</span><span class="token punctuation">:</span> <span class="token number">64339</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Id&quot;</span><span class="token punctuation">:</span> <span class="token number">78772</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">21</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="getinvestmentrecords"><a href="#getinvestmentrecords" aria-hidden="true" class="header-anchor">#</a> getInvestmentRecords</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Product<span class="token operator">/</span>getInvestmentRecords
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    pid<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;count&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token string">&quot;Name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;张**&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;Price&quot;</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;PayTime&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;2020-05-14&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">23</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="site-getnewslist"><a href="#site-getnewslist" aria-hidden="true" class="header-anchor">#</a> Site/GetNewsList</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Site<span class="token operator">/</span>GetNewsList
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    mapId<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+    newsTypeId<span class="token punctuation">:</span> <span class="token number">41</span>
+    pageIndex<span class="token punctuation">:</span> <span class="token number">1</span>
+    pageSize<span class="token punctuation">:</span> <span class="token number">3</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;totalCount&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">36</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="product-networthlist"><a href="#product-networthlist" aria-hidden="true" class="header-anchor">#</a> Product/netWorthList</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Product<span class="token operator">/</span>netWorthList
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    id<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+    lastYear<span class="token punctuation">:</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;totalCount&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">19</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="user-collectcheck"><a href="#user-collectcheck" aria-hidden="true" class="header-anchor">#</a> user/CollectCheck</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post user<span class="token operator">/</span>CollectCheck
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    <span class="token keyword">from</span><span class="token punctuation">:</span> <span class="token string">&quot;share&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    productid<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;errMsg&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;未收藏&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">10000</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">19</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="site-getproductnews"><a href="#site-getproductnews" aria-hidden="true" class="header-anchor">#</a> Site/GetProductNews</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Site<span class="token operator">/</span>GetProductNews
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    id<span class="token punctuation">:</span> <span class="token string">&quot;64339&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;totalCount&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">23</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="个人工作台"><a href="#个人工作台" aria-hidden="true" class="header-anchor">#</a> 个人工作台</h2> <h3 id="baseuserinfo"><a href="#baseuserinfo" aria-hidden="true" class="header-anchor">#</a> baseuserinfo</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post user<span class="token operator">/</span>baseuserinfo
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+	apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>  
+<span class="token punctuation">{</span>
+   <span class="token string">&quot;code&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+   <span class="token string">&quot;data&quot;</span><span class="token punctuation">:</span><span class="token punctuation">{</span>
+        <span class="token string">&quot;authType&quot;</span><span class="token punctuation">:</span> <span class="token number">3</span>
+        <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token number">23610</span>
+        <span class="token string">&quot;idcard&quot;</span><span class="token punctuation">:</span> <span class="token keyword">null</span>
+        <span class="token string">&quot;isAuth&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span>
+        <span class="token string">&quot;isCard&quot;</span><span class="token punctuation">:</span> <span class="token number">10</span>
+        <span class="token string">&quot;isLogin&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span>
+        <span class="token string">&quot;mobile&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;15921250253&quot;</span>
+        <span class="token string">&quot;photo&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Upload/IOS/20200224/2020022414250024946778.jpg&quot;</span>
+        <span class="token string">&quot;realname&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;宋飞&quot;</span>
+        <span class="token string">&quot;role&quot;</span><span class="token punctuation">:</span> <span class="token number">8</span>
+        <span class="token string">&quot;surveyUrl&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        <span class="token string">&quot;vip&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token string">&quot;isSuccess&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+   <span class="token string">&quot;runSpanTime&quot;</span><span class="token punctuation">:</span> <span class="token number">44</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="getuserbaseprofiledetail"><a href="#getuserbaseprofiledetail" aria-hidden="true" class="header-anchor">#</a> getUserBaseProfileDetail</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post user<span class="token operator">/</span>getUserBaseProfileDetail
+<span class="token operator">-</span> req
+<span class="token punctuation">{</span>
+    apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    cid<span class="token punctuation">:</span> <span class="token string">&quot;n1q&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res
+@<span class="token keyword">return</span>
+<span class="token punctuation">{</span>
+    code<span class="token punctuation">:</span><span class="token number">0</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span><span class="token punctuation">{</span>
+        authStatus<span class="token punctuation">:</span> <span class="token number">10</span>
+        bankCount<span class="token punctuation">:</span> <span class="token number">6</span>
+        birthday<span class="token punctuation">:</span> <span class="token string">&quot;2017-05-17T00:00:00.000Z&quot;</span>
+        card<span class="token punctuation">:</span> <span class="token string">&quot;Upload/IOS/20190117/2019011715251278936606.jpg&quot;</span>
+        cityname<span class="token punctuation">:</span> <span class="token string">&quot;北京市&quot;</span>
+        company<span class="token punctuation">:</span> <span class="token string">&quot;壹财富&quot;</span>
+        companyAddress<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        confirmPhoto<span class="token punctuation">:</span> <span class="token string">&quot;Upload/Android/20180606/32539.png&quot;</span>
+        confirmcompany<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        confirmphoto<span class="token punctuation">:</span> <span class="token string">&quot;Upload/Android/20180606/32539.png&quot;</span>
+        customerCount<span class="token punctuation">:</span> <span class="token number">0</span>
+        email<span class="token punctuation">:</span> <span class="token string">&quot;felix@1caifu.com&quot;</span>
+        exp<span class="token punctuation">:</span> <span class="token number">63674</span>
+        hobbyProductType<span class="token punctuation">:</span> <span class="token string">&quot;8&quot;</span>
+        hobbyproductIntro<span class="token punctuation">:</span> <span class="token string">&quot;债券基金&quot;</span>
+        id<span class="token punctuation">:</span> <span class="token number">23610</span>
+        idCard<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        imUserName<span class="token punctuation">:</span> <span class="token string">&quot;71n2&quot;</span>
+        industry<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        isAuth<span class="token punctuation">:</span> <span class="token boolean">true</span>
+        isCard<span class="token punctuation">:</span> <span class="token number">10</span>
+        isIdCard<span class="token punctuation">:</span> <span class="token number">10</span>
+        jobNum<span class="token punctuation">:</span> <span class="token string">&quot;X000000&quot;</span>
+        manageCapital<span class="token punctuation">:</span> <span class="token number">0</span>
+        managerMobile<span class="token punctuation">:</span> <span class="token string">&quot;15921250253&quot;</span>
+        managerName<span class="token punctuation">:</span> <span class="token string">&quot;宋飞&quot;</span>
+        mangerType<span class="token punctuation">:</span> <span class="token number">0</span>
+        mobile<span class="token punctuation">:</span> <span class="token string">&quot;15921250253&quot;</span>
+        motto<span class="token punctuation">:</span> <span class="token string">&quot;用专业的技术优质的服务服务于每个客户&quot;</span>
+        photo<span class="token punctuation">:</span> <span class="token string">&quot;Upload/IOS/20200224/2020022414250024946778.jpg&quot;</span>
+        pofAccountId<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        position<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        qq<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        realName<span class="token punctuation">:</span> <span class="token string">&quot;宋飞&quot;</span>
+        role<span class="token punctuation">:</span> <span class="token number">8</span>
+        score<span class="token punctuation">:</span> <span class="token number">121</span>
+        selfIntro<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        sex<span class="token punctuation">:</span> <span class="token number">1</span>
+        userAddress<span class="token punctuation">:</span> <span class="token number">6</span>
+        userGradeId<span class="token punctuation">:</span> <span class="token number">3</span>
+        userMapMobile<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        userMapRealName<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        vip<span class="token punctuation">:</span> <span class="token keyword">null</span>
+        weChat<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+        workYear<span class="token punctuation">:</span> <span class="token string">&quot;10&quot;</span>
+        workexperience<span class="token punctuation">:</span> <span class="token string">&quot;管理规模超50亿，服务超过60位高净值客户，经验丰富，眼光独到&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    isSuccess<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    runSpanTime<span class="token punctuation">:</span> <span class="token number">106</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="collectgetlistfull"><a href="#collectgetlistfull" aria-hidden="true" class="header-anchor">#</a> CollectGetListFull</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post User<span class="token operator">/</span>CollectGetListFull
+<span class="token operator">-</span> req<span class="token punctuation">{</span>
+    apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;3.0.0&quot;</span>
+    cid<span class="token punctuation">:</span> <span class="token string">&quot;n1q&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>   
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res<span class="token punctuation">{</span>
+    code<span class="token punctuation">:</span><span class="token number">0</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            assets<span class="token punctuation">:</span> <span class="token number">4.0715</span>
+            backBrokerage<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            bestEarningRate<span class="token punctuation">:</span> <span class="token string">&quot;浮动&quot;</span>
+            bestEarningRate_back<span class="token punctuation">:</span> <span class="token number">0</span>
+            bestEarningRate_fore<span class="token punctuation">:</span> <span class="token string">&quot;浮动&quot;</span>
+            bestEmployeePrice<span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+            bestEmployeePrice_back<span class="token punctuation">:</span> <span class="token number">0</span>
+            bestEmployeePrice_fore<span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+            bestGroupPrice<span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+            bestGroupPrice_back<span class="token punctuation">:</span> <span class="token number">0</span>
+            bestGroupPrice_fore<span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+            bestPrice<span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+            bestPrice_back<span class="token punctuation">:</span> <span class="token number">0</span>
+            bestPrice_fore<span class="token punctuation">:</span> <span class="token string">&quot;待定&quot;</span>
+            buyStart<span class="token punctuation">:</span> <span class="token number">100</span>
+            category<span class="token punctuation">:</span> <span class="token number">10</span>
+            cityName<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            collectId<span class="token punctuation">:</span> <span class="token number">10074</span>
+            company<span class="token punctuation">:</span> <span class="token string">&quot;弘茗资产&quot;</span>
+            createTime<span class="token punctuation">:</span> <span class="token string">&quot;2017-12-19 16:59:32&quot;</span>
+            daXiao<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            dyl<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            fundChannel<span class="token punctuation">:</span> <span class="token string">&quot;自主发行&quot;</span>
+            fundInvest<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            fundType<span class="token punctuation">:</span> <span class="token string">&quot;套利策略&quot;</span>
+            fxList<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            groupName<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            guiMo<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            investmentStart<span class="token punctuation">:</span> <span class="token number">0</span>
+            investmentTerm<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            isChosen<span class="token punctuation">:</span> <span class="token boolean">false</span>
+            isHot<span class="token punctuation">:</span> <span class="token boolean">false</span>
+            isHotSale<span class="token punctuation">:</span> <span class="token boolean">false</span>
+            isOnSale<span class="token punctuation">:</span> <span class="token number">1</span>
+            isRecommend<span class="token punctuation">:</span> <span class="token boolean">false</span>
+            jdt<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            level<span class="token punctuation">:</span> <span class="token number">99</span>
+            listingTime<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            managementOrganization<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            manager<span class="token punctuation">:</span> <span class="token string">&quot;林娜&quot;</span>
+            parentId<span class="token punctuation">:</span> <span class="token number">23910</span>
+            payStatus<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            peibi<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            phase<span class="token punctuation">:</span> <span class="token number">1</span>
+            productId<span class="token punctuation">:</span> <span class="token number">23910</span>
+            productTags<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            productTypeId<span class="token punctuation">:</span> <span class="token number">4</span>
+            productTypeName<span class="token punctuation">:</span> <span class="token string">&quot;证券基金&quot;</span>
+            producttagids_intarray<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            proviceName<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            qiXian<span class="token punctuation">:</span> <span class="token string">&quot;0&quot;</span>
+            qiXianTitle<span class="token punctuation">:</span> <span class="token string">&quot;0个月&quot;</span>
+            qiXianX<span class="token punctuation">:</span> <span class="token number">0</span>
+            qiXianY<span class="token punctuation">:</span> <span class="token number">0</span>
+            quitPeriod1<span class="token punctuation">:</span> <span class="token number">0</span>
+            quitPeriod2<span class="token punctuation">:</span> <span class="token number">0</span>
+            raiseProgress<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            raiseUpdateTime<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            recentJz<span class="token punctuation">:</span> <span class="token number">0.9996</span>
+            row<span class="token punctuation">:</span> <span class="token string">&quot;1&quot;</span>
+            sTitle<span class="token punctuation">:</span> <span class="token string">&quot;弘茗套利稳健管理型6号(第1期)&quot;</span>
+            saleStatus<span class="token punctuation">:</span> <span class="token number">125</span>
+            saleStatusName<span class="token punctuation">:</span> <span class="token string">&quot;开放募集中&quot;</span>
+            saleType<span class="token punctuation">:</span> <span class="token string">&quot;onsale&quot;</span>
+            shouYiType<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            tagsArray<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+            title<span class="token punctuation">:</span> <span class="token string">&quot;弘茗套利稳健管理型6号(第1期)&quot;</span>
+            touZiMenkan<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            touZilingYu<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            updateTime<span class="token punctuation">:</span> <span class="token string">&quot;2019-10-15 23:50:56&quot;</span>
+            videoFile<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+            visitCount<span class="token punctuation">:</span> <span class="token number">1270</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    isSuccess<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    runSpanTime<span class="token punctuation">:</span> <span class="token number">89</span>
+    totalCount<span class="token punctuation">:</span> <span class="token number">14</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="getuserworkhistorylist"><a href="#getuserworkhistorylist" aria-hidden="true" class="header-anchor">#</a> getUserWorkHistoryList</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post User<span class="token operator">/</span>getUserWorkHistoryList
+<span class="token operator">-</span> req<span class="token punctuation">{</span>
+    apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    cid<span class="token punctuation">:</span> <span class="token string">&quot;n1q&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res<span class="token punctuation">{</span>
+    code<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            aum<span class="token punctuation">:</span> <span class="token number">100000</span>
+            beginDate<span class="token punctuation">:</span> <span class="token string">&quot;2014-10-19T00:00:00.000Z&quot;</span>
+            company<span class="token punctuation">:</span> <span class="token string">&quot;上海小虎金融信息服务有限公司&quot;</span>
+            createTime<span class="token punctuation">:</span> <span class="token string">&quot;2018-11-19T14:06:48.716Z&quot;</span>
+            department<span class="token punctuation">:</span> <span class="token keyword">null</span>
+            endDate<span class="token punctuation">:</span> <span class="token string">&quot;2018-04-19T00:00:00.000Z&quot;</span>
+            id<span class="token punctuation">:</span> <span class="token number">17</span>
+            title<span class="token punctuation">:</span> <span class="token string">&quot;销售经理&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    isSuccess<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    runSpanTime<span class="token punctuation">:</span> <span class="token number">53</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="getusercertificatelist"><a href="#getusercertificatelist" aria-hidden="true" class="header-anchor">#</a> getUserCertificateList</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post User<span class="token operator">/</span>getUserCertificateList
+<span class="token operator">-</span> req<span class="token punctuation">{</span>
+    apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    cid<span class="token punctuation">:</span> <span class="token string">&quot;n1q&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res<span class="token punctuation">{</span>
+    code<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            certificateImage<span class="token punctuation">:</span> <span class="token string">&quot;https://rescdn.xiaohu.in/images/certification/04.png&quot;</span>
+            certificateTypeId<span class="token punctuation">:</span> <span class="token number">4</span>
+            certificateTypeName<span class="token punctuation">:</span> <span class="token string">&quot;基金从业资格证&quot;</span>
+            createTime<span class="token punctuation">:</span> <span class="token string">&quot;2018-11-19T14:07:11.290Z&quot;</span>
+            id<span class="token punctuation">:</span> <span class="token number">19</span>
+            image<span class="token punctuation">:</span> <span class="token string">&quot;https://rescdn.xiaohu.in/images/certification/04.png&quot;</span>
+            sn<span class="token punctuation">:</span> <span class="token string">&quot;ABCD12345678&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    isSuccess<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    runSpanTime<span class="token punctuation">:</span> <span class="token number">65</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="getnewscommentbyuser"><a href="#getnewscommentbyuser" aria-hidden="true" class="header-anchor">#</a> GetNewsCommentByUser</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post Site<span class="token operator">/</span>GetNewsCommentByUser
+<span class="token operator">-</span> req<span class="token punctuation">{</span>
+    apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    cid<span class="token punctuation">:</span> <span class="token string">&quot;n1q&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    pageIndex<span class="token punctuation">:</span> <span class="token number">1</span>
+    pageSize<span class="token punctuation">:</span> <span class="token number">3</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res<span class="token punctuation">{</span>
+    code<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            comment<span class="token punctuation">:</span> <span class="token string">&quot;aa&quot;</span>
+            commentTime<span class="token punctuation">:</span> <span class="token string">&quot;2019-11-12T15:39:50.336Z&quot;</span>
+            createTime<span class="token punctuation">:</span> <span class="token string">&quot;2019-11-12T15:39:50.336Z&quot;</span>
+            id<span class="token punctuation">:</span> <span class="token number">236</span>
+            image<span class="token punctuation">:</span> <span class="token string">&quot;https://rescdn.xiaohu.in/spider/1819125-8570a25af43b9fc1f7818501775d1d52.jpeg&quot;</span>
+            newsId<span class="token punctuation">:</span> <span class="token number">63286</span>
+            row<span class="token punctuation">:</span> <span class="token string">&quot;1&quot;</span>
+            title<span class="token punctuation">:</span> <span class="token string">&quot;中国央行定向降准扩围料仅是预热，助稳资金面节前或再派“红包”&quot;</span>
+            updateTime<span class="token punctuation">:</span> <span class="token string">&quot;2019-11-12T15:39:50.336Z&quot;</span>
+            userId<span class="token punctuation">:</span> <span class="token number">23610</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    isSuccess<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    runSpanTime<span class="token punctuation">:</span> <span class="token number">31</span>
+    totalCount<span class="token punctuation">:</span> <span class="token number">5</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="checkbindwangyi"><a href="#checkbindwangyi" aria-hidden="true" class="header-anchor">#</a> CheckBindWangyi</h3> <div class="language-js extra-class"><pre class="language-js"><code>@url post im<span class="token operator">/</span>CheckBindWangyi
+<span class="token operator">-</span> req<span class="token punctuation">{</span>
+    apiVersion<span class="token punctuation">:</span> <span class="token string">&quot;1.0.0&quot;</span>
+    channel<span class="token punctuation">:</span> <span class="token string">&quot;15&quot;</span>
+    fromApp<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    mapId<span class="token punctuation">:</span> <span class="token number">23610</span>
+    source<span class="token punctuation">:</span> <span class="token string">&quot;userInfo&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">-</span> res<span class="token punctuation">{</span>
+    accid<span class="token punctuation">:</span> <span class="token string">&quot;5ttnq&quot;</span>
+    code<span class="token punctuation">:</span> <span class="token number">0</span>
+    isSuccess<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    pCIsClose<span class="token punctuation">:</span> <span class="token boolean">false</span>
+    runSpanTime<span class="token punctuation">:</span> <span class="token number">47</span>
+    token<span class="token punctuation">:</span> <span class="token string">&quot;899610e1c879bf4edf1a242a7bcd9f28&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">6/2/2020, 9:59:57 AM</span></div></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/app.844fdc67.js" defer></script><script src="/assets/js/6.cdb63f67.js" defer></script>
+  </body>
+</html>
